@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B740D3C3264C05480058D015 /* MovieBackdropCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740D3C2264C05480058D015 /* MovieBackdropCarouselView.swift */; };
 		B7A0D95A26493F3500E82911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0D95926493F3500E82911 /* AppDelegate.swift */; };
 		B7A0D95C26493F3500E82911 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0D95B26493F3500E82911 /* SceneDelegate.swift */; };
 		B7A0D95E26493F3500E82911 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0D95D26493F3500E82911 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B740D3C2264C05480058D015 /* MovieBackdropCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBackdropCarouselView.swift; sourceTree = "<group>"; };
 		B7A0D95626493F3500E82911 /* MovienApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovienApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A0D95926493F3500E82911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7A0D95B26493F3500E82911 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				B7A4A5BD264B987400C698F8 /* MovieBackdropCard.swift */,
+				B740D3C2264C05480058D015 /* MovieBackdropCarouselView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				B7A0D95A26493F3500E82911 /* AppDelegate.swift in Sources */,
 				B7A0D95C26493F3500E82911 /* SceneDelegate.swift in Sources */,
+				B740D3C3264C05480058D015 /* MovieBackdropCarouselView.swift in Sources */,
 				B7A4A5C1264B98B100C698F8 /* ImageLoader.swift in Sources */,
 				B7A0D96F26493F7300E82911 /* Movie.swift in Sources */,
 				B7A0D97626494C8900E82911 /* Utils.swift in Sources */,
