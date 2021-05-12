@@ -17,6 +17,10 @@
 		B7A0D9722649408300E82911 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0D9712649408300E82911 /* MovieService.swift */; };
 		B7A0D97426494B6500E82911 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0D97326494B6500E82911 /* MovieStore.swift */; };
 		B7A0D97626494C8900E82911 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0D97526494C8900E82911 /* Utils.swift */; };
+		B7A4A5B7264B90A800C698F8 /* movie_info.json in Resources */ = {isa = PBXBuildFile; fileRef = B7A4A5B4264B90A800C698F8 /* movie_info.json */; };
+		B7A4A5B8264B90A800C698F8 /* search_movie.json in Resources */ = {isa = PBXBuildFile; fileRef = B7A4A5B5264B90A800C698F8 /* search_movie.json */; };
+		B7A4A5B9264B90A800C698F8 /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = B7A4A5B6264B90A800C698F8 /* movie_list.json */; };
+		B7A4A5BB264B921200C698F8 /* Movie+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A4A5BA264B921200C698F8 /* Movie+Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		B7A0D9712649408300E82911 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		B7A0D97326494B6500E82911 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
 		B7A0D97526494C8900E82911 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B7A4A5B4264B90A800C698F8 /* movie_info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = movie_info.json; path = ../../../../trash/Resources/movie_info.json; sourceTree = "<group>"; };
+		B7A4A5B5264B90A800C698F8 /* search_movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = search_movie.json; path = ../../../../trash/Resources/search_movie.json; sourceTree = "<group>"; };
+		B7A4A5B6264B90A800C698F8 /* movie_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = movie_list.json; path = ../../../../trash/Resources/movie_list.json; sourceTree = "<group>"; };
+		B7A4A5BA264B921200C698F8 /* Movie+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Stub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		B7A0D95826493F3500E82911 /* MovienApp */ = {
 			isa = PBXGroup;
 			children = (
+				B7A4A5B3264B909000C698F8 /* Resources */,
 				B7A0D97526494C8900E82911 /* Utils.swift */,
 				B7A0D9702649407700E82911 /* Services */,
 				B7A0D96D26493F6700E82911 /* Models */,
@@ -90,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				B7A0D96E26493F7300E82911 /* Movie.swift */,
+				B7A4A5BA264B921200C698F8 /* Movie+Stub.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +111,16 @@
 				B7A0D97326494B6500E82911 /* MovieStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B7A4A5B3264B909000C698F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7A4A5B4264B90A800C698F8 /* movie_info.json */,
+				B7A4A5B6264B90A800C698F8 /* movie_list.json */,
+				B7A4A5B5264B90A800C698F8 /* search_movie.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A4A5B8264B90A800C698F8 /* search_movie.json in Resources */,
 				B7A0D96626493F3700E82911 /* LaunchScreen.storyboard in Resources */,
 				B7A0D96326493F3700E82911 /* Preview Assets.xcassets in Resources */,
+				B7A4A5B7264B90A800C698F8 /* movie_info.json in Resources */,
+				B7A4A5B9264B90A800C698F8 /* movie_list.json in Resources */,
 				B7A0D96026493F3700E82911 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +201,7 @@
 				B7A0D95C26493F3500E82911 /* SceneDelegate.swift in Sources */,
 				B7A0D96F26493F7300E82911 /* Movie.swift in Sources */,
 				B7A0D97626494C8900E82911 /* Utils.swift in Sources */,
+				B7A4A5BB264B921200C698F8 /* Movie+Stub.swift in Sources */,
 				B7A0D95E26493F3500E82911 /* ContentView.swift in Sources */,
 				B7A0D9722649408300E82911 /* MovieService.swift in Sources */,
 				B7A0D97426494B6500E82911 /* MovieStore.swift in Sources */,
