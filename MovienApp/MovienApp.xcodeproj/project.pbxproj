@@ -31,6 +31,9 @@
 		B7E885A8264DBE7700DA57FD /* MovieListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E885A7264DBE7700DA57FD /* MovieListState.swift */; };
 		B7E885AC264E338200DA57FD /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E885AB264E338200DA57FD /* ActivityIndicatorView.swift */; };
 		B7E885AE264E367700DA57FD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E885AD264E367700DA57FD /* LoadingView.swift */; };
+		B7E885B0264E471700DA57FD /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E885AF264E471700DA57FD /* LoginPageView.swift */; };
+		B7E885B2264E473B00DA57FD /* RegistrationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E885B1264E473B00DA57FD /* RegistrationPageView.swift */; };
+		B7E885B4264E478900DA57FD /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E885B3264E478900DA57FD /* ProfilePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		B7E885A7264DBE7700DA57FD /* MovieListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListState.swift; sourceTree = "<group>"; };
 		B7E885AB264E338200DA57FD /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		B7E885AD264E367700DA57FD /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B7E885AF264E471700DA57FD /* LoginPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginPageView.swift; path = ../../../../../Downloads/Views/LoginPageView.swift; sourceTree = "<group>"; };
+		B7E885B1264E473B00DA57FD /* RegistrationPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationPageView.swift; path = ../../../../../Downloads/Views/RegistrationPageView.swift; sourceTree = "<group>"; };
+		B7E885B3264E478900DA57FD /* ProfilePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilePageView.swift; path = ../../../../../Downloads/Views/ProfilePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,9 @@
 				B7E885A1264D984D00DA57FD /* MoviePosterCarouselView.swift */,
 				B7E885A5264D9F7F00DA57FD /* MovieDetailsView.swift */,
 				B7E885AD264E367700DA57FD /* LoadingView.swift */,
+				B7E885AF264E471700DA57FD /* LoginPageView.swift */,
+				B7E885B1264E473B00DA57FD /* RegistrationPageView.swift */,
+				B7E885B3264E478900DA57FD /* ProfilePageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,12 +264,14 @@
 				B7DF83CB264D00F800C59398 /* MovieListView.swift in Sources */,
 				B7A0D95C26493F3500E82911 /* SceneDelegate.swift in Sources */,
 				B740D3C3264C05480058D015 /* MovieBackdropCarouselView.swift in Sources */,
+				B7E885B2264E473B00DA57FD /* RegistrationPageView.swift in Sources */,
 				B7DF83C7264CF49D00C59398 /* MoviePosterCard.swift in Sources */,
 				B7A4A5C1264B98B100C698F8 /* ImageLoader.swift in Sources */,
 				B7A0D96F26493F7300E82911 /* Movie.swift in Sources */,
 				B7A0D97626494C8900E82911 /* Utils.swift in Sources */,
 				B7A4A5BE264B987400C698F8 /* MovieBackdropCard.swift in Sources */,
 				B7E885A6264D9F7F00DA57FD /* MovieDetailsView.swift in Sources */,
+				B7E885B4264E478900DA57FD /* ProfilePageView.swift in Sources */,
 				B7A4A5BB264B921200C698F8 /* Movie+Stub.swift in Sources */,
 				B7E885A2264D984D00DA57FD /* MoviePosterCarouselView.swift in Sources */,
 				B7E885AC264E338200DA57FD /* ActivityIndicatorView.swift in Sources */,
@@ -269,6 +280,7 @@
 				B7A0D9722649408300E82911 /* MovieService.swift in Sources */,
 				B7A0D97426494B6500E82911 /* MovieStore.swift in Sources */,
 				B7E885AE264E367700DA57FD /* LoadingView.swift in Sources */,
+				B7E885B0264E471700DA57FD /* LoginPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

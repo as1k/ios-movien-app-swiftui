@@ -13,7 +13,10 @@ struct ContentView: View {
 //        MovieBackdropCard(movie: Movie.stubbedMovie)
 //        MovieBackdropCarouselView(title: "Latest", movies: Movie.stubbedMovies)
 //        MoviePosterCarouselView(title: "Now Playing", movies: Movie.stubbedMovies)
-        MovieListView()
+//        MovieListView()
+//        LoginPageView()
+//        RegistrationPageView()
+        ProfilPageView()
     }
 }
 
