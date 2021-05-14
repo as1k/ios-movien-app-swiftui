@@ -1,5 +1,5 @@
 //
-//  MovieListState.swift
+//  MovieDetailState.swift
 //  MovienApp
 //
 //  Created by Асыланбек Нурмухамбет on 5/14/21.
@@ -8,28 +8,27 @@
 
 import SwiftUI
 
-class MovieListState: ObservableObject {
+class MovieDetailState: ObservableObject {
     
-    @Published var movies: [Movie]?
-    @Published var isLoading: Bool = false
-    @Published var error: NSError?
-
     private let movieService: MovieService
+    @Published var movie: Movie?
+    @Published var isLoading = false
+    @Published var error: NSError?
     
     init(movieService: MovieService = MovieStore.shared) {
         self.movieService = movieService
     }
     
-    func loadMovies(with endpoint: MovieListEndpoint) {
-        self.movies = nil
-        self.isLoading = true
-        self.movieService.fetchMovies(from: endpoint) { [weak self] (result) in
+    func loadMovie(id: Int) {
+        self.movie = nil
+        self.isLoading = false
+        self.movieService.fetchMovie(id: id) {[weak self] (result) in
             guard let self = self else { return }
+            
             self.isLoading = false
             switch result {
-            case .success(let response):
-                self.movies = response.results
-                
+            case .success(let movie):
+                self.movie = movie
             case .failure(let error):
                 self.error = error as NSError
             }
