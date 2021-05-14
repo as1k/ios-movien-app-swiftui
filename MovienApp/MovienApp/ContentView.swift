@@ -12,7 +12,8 @@ struct ContentView: View {
     var body: some View {
 //        MovieBackdropCard(movie: Movie.stubbedMovie)
 //        MovieBackdropCarouselView(title: "Latest", movies: Movie.stubbedMovies)
-        MoviePosterCarouselView(title: "Now Playing", movies: Movie.stubbedMovies)
+//        MoviePosterCarouselView(title: "Now Playing", movies: Movie.stubbedMovies)
+        MovieListView()
     }
 }
 

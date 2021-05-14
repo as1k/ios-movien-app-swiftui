@@ -24,8 +24,8 @@ struct MoviePosterCarouselView: View {
                 HStack(alignment: .top, spacing: 16) {
                     ForEach(self.movies) { movie in
                         MoviePosterCard(movie: movie)
-                            .padding(.leading, movie.id == self.movies.first.id! ? 16 : 0)
-                            .padding(.trailing, movie.id == self.movies.last.id! ? 16 : 0)
+                            .padding(.leading, movie.id == self.movies.first!.id ? 16 : 0)
+                            .padding(.trailing, movie.id == self.movies.last!.id ? 16 : 0)
                     }
                 }
             }
@@ -35,6 +35,6 @@ struct MoviePosterCarouselView: View {
 
 struct MoviePosterCarouselView_Previews: PreviewProvider {
     static var previews: some View {
-        MoviePosterCarouselView(title: "Now playing", movies: Movie.stubbedMovies)
+        MoviePosterCarouselView(title: "Now Playing", movies: Movie.stubbedMovies)
     }
 }
